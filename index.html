@@ -4,18 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./src/output.css">
+    <script defer src="./loginScript.js"></script>
     <title>Document</title>
 </head>
 <body class="bg-[rgb(36,53,63)]">
-    <div class="mt-10 card w-[65%] md:w-[60%] lg:w-[45%] 2xl:w-[40%] mx-auto shadow-2xl bg-[#24353f] mt-5 p-5 ">
+    <div class="mt-10 card w-[65%] md:w-[60%] lg:w-[45%] 2xl:w-[40%] mx-auto shadow-2xl bg-[#24353f]  p-5 ">
         <h1 class="text-4xl font-semibold text-[#17a2b8] text-center py-1 px-5 mb-5">Smart Login System</h1>
         <form action="" class="">
-            <input type="text" placeholder="Enter your email" class="text-white border border-solid border-white hover:border-[#17a2b8] focus:border-[#17a2b8] focus:outline-none w-full mb-3 rounded-sm p-2">
-            <input type="password" placeholder="Enter your password" class=" text-white border border-solid border-white hover:border-[#17a2b8] focus:border-[#17a2b8] focus:outline-none w-full mb-3 rounded-sm p-2 ">
-            <ixnput type="password" placeholder="Enter your password">
+            <input id="login_email_field" type="email" placeholder="Enter your email" class="text-white border border-solid border-white hover:border-[#17a2b8] focus:border-[#17a2b8] focus:outline-none w-full mb-3 rounded-sm p-2">
+            <input id="login_password_field" type="password" placeholder="Enter your password" class=" text-white border border-solid border-white hover:border-[#17a2b8] focus:border-[#17a2b8] focus:outline-none w-full mb-3 rounded-sm p-2 ">
+            
             <button class="w-full bg-transparent text-[#17a2b8] border border-solid border-[#17a2b8] hover:text-white  hover:bg-[#17a2b8] mb-3 text-lg py-1 rounded-sm">Login</button>
         </form>
-        <p class="text-white text-lg text-center">Don’t have an account? <a href="">Sign Up</a></p>
+        <p class="text-white text-lg text-center">Don’t have an account? <a href="./Signup.html">Sign Up</a></p>
         
     </div>
 </body>

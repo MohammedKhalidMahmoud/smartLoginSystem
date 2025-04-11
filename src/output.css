@@ -394,6 +394,32 @@
       }
     }
   }
+  .focus\:border-\[\#1\] {
+    &:focus {
+      border-color: #1;
+    }
+  }
+  .focus\:border-\[\#17a2b8\] {
+    &:focus {
+      border-color: #17a2b8;
+    }
+  }
+  .focus\:border-\[\#17a\] {
+    &:focus {
+      border-color: #17a;
+    }
+  }
+  .focus\:border-\[\#\] {
+    &:focus {
+      border-color: #;
+    }
+  }
+  .focus\:outline-none {
+    &:focus {
+      --tw-outline-style: none;
+      outline-style: none;
+    }
+  }
   .sm\:w-\[50\%\] {
     @media (width >= 40rem) {
       width: 50%;
